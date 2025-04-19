@@ -95,7 +95,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/svg/logo.svg",
+                        "img": "images/pictures/sdev.png",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },

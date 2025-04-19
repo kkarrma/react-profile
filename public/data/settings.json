@@ -26,12 +26,11 @@
     "status": {
         "visible": true,
         "available": true,
-
         "locales": {
-            "en": {"message": "Available for freelance!"},
-            "es": {"message": "¡Disponible para freelance!"},
-            "fr": {"message": "Disponible pour freelance !"},
-            "ko": {"message": "프리랜스 가능합니다!"}
+            "en": { "message": "🛠️ Dev mode: compiled. Ready to serve at localhost:your-company" },
+            "es": { "message": "🛠️ Modo dev: Portafolio compilado. Sirviendo creatividad en http://localhost:3000" },
+            "fr": { "message": "🛠️ Mode dev : Portfolio compilé. Créativité servie sur http://localhost:3000" },
+            "ko": { "message": "🛠️ 개발 모드: 포트폴리오 컴파일 완료. 창의력 서빙 중: http://localhost:3000" }
         }
     },
 
