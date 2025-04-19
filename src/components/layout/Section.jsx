@@ -14,7 +14,7 @@ import ArticleInfoBlock from "/src/components/articles/ArticleInfoBlock.jsx"
 import ArticleList from "/src/components/articles/ArticleList.jsx"
 import ArticlePortfolio from "/src/components/articles/ArticlePortfolio.jsx"
 import ArticleServices from "/src/components/articles/ArticleServices.jsx"
-import ArticleTestimonials from "/src/components/articles/ArticleTestimonials.jsx"
+// import ArticleTestimonials from "/src/components/articles/ArticleTestimonials.jsx"
 import ArticleThread from "/src/components/articles/ArticleThread.jsx"
 import ArticleTimeline from "/src/components/articles/ArticleTimeline.jsx"
 import FullScreenToggleButton from "/src/components/widgets/FullScreenToggleButton"
@@ -39,7 +39,7 @@ const ARTICLES = {
     ArticleList,
     ArticlePortfolio,
     ArticleServices,
-    ArticleTestimonials,
+    // ArticleTestimonials,
     ArticleThread,
     ArticleTimeline
 }
@@ -174,11 +174,11 @@ function SectionContent({articles}) {
                             <Component data={article}/>
                         )}
 
-                        {!Component && (
+                        {/* {!Component && (
                             <div className={`alert alert-danger text-3`}>
                                 Component <strong>{article.component}</strong> not found! Make sure the component exists and is listed on the <i>ARTICLES</i> dictionary on <b>Section.jsx</b>.
                             </div>
-                        )}
+                        )} */}
                     </div>
                 )
             })}

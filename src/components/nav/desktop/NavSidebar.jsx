@@ -110,9 +110,9 @@ function NavSidebarBottomMenu({shouldShrink}) {
 
     return (
         <NavSidebarGroup direction={`horizontal`} shrink={shouldShrink}>
-            <NavSidebarGroupItem visible={canChangeLanguage}>
+            {/* <NavSidebarGroupItem visible={canChangeLanguage}>
                 <LanguagePicker shrink={true}/>
-            </NavSidebarGroupItem>
+            </NavSidebarGroupItem> */}
 
             <NavSidebarGroupItem visible={canChangeTheme}>
                 <ThemePicker shrink={true}/>

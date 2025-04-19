@@ -27,8 +27,9 @@ $sidebar-min-breakpoint: md;
 /** ----------- COLORS ----------- **/
 
 /** COLORS - overriding bootstrap colors **/
-$primary: #36ec65;
-$secondary: #6c757d;
+$primary: #406ec9;
+$secondary: #89a7e1;
+$accent: #8a4bd8;   /* More violet accent color */
 $dark: #111;
 $light: #EEE;
 
@@ -50,14 +51,18 @@ $loader-background-color: #111111;
     --theme-secondary-2: #D1D1D1;
     --theme-secondary-3: #bbbbbb;
     --theme-secondary-4: #9f9f9f;
+    
+    --theme-accent: #6a35c2;          /* Dark violet accent for dark mode */
+    --theme-accent-2: #7d4dd1;        /* Slightly lighter */
+    --theme-accent-3: #532996;        /* Even darker */
 
     --theme-soft: #212121;
     --theme-soft-2: #252525;
     --theme-soft-3: #292929;
 
-    --theme-highlight: #9dff8e;
-    --theme-highlight-2: #b5ffa9;
-    --theme-highlight-3: #d5fdcd;
+    --theme-highlight: #6878d1;       /* Coordinated with primary */
+    --theme-highlight-2: #89a7e1;     /* Using secondary color */
+    --theme-highlight-3: #dcd5f7;     /* Light violet tint */
 
     --theme-dark: #101010;
     --theme-dark-opacity: rgba(16, 16, 16, 0.2);
@@ -75,7 +80,7 @@ $loader-background-color: #111111;
     --theme-nav-background-disabled: #181818;
     --theme-nav-secondary: #EEEEEE;
     --theme-nav-light: #1f2022;
-    --theme-nav-highlight: #9dff8e;
+    --theme-nav-highlight: #6a35c2;    /* Dark violet highlight */
     --theme-nav-selected: #232526;
 
     --theme-scrollbar-track: #111111;
@@ -83,52 +88,68 @@ $loader-background-color: #111111;
     --theme-chart-borders: #e7f6e3;
 
     --theme-danger: #730808;
+    
+    /* Button colors */
+    --theme-button-primary: #406ec9;
+    --theme-button-primary-hover: #3461b8;
+    --theme-button-accent: #6a35c2;      /* Dark violet */
+    --theme-button-accent-hover: #532996;
 }
 
 /** COLORS - light theme palette **/
 [data-theme="light"] {
-    --theme-main: #9adbaf;
-    --theme-main-2: #8ec9a1;
-    --theme-main-3: #82b791;
-    --theme-main-4: #7db08e;
+    --theme-main: #f6f5fd;             /* Very light violet tint */
+    --theme-main-2: #efe9fc;
+    --theme-main-3: #e8e1fa;
+    --theme-main-4: #e1d9f8;
 
-    --theme-secondary: #404b41;
-    --theme-secondary-2: #49564a;
-    --theme-secondary-3: #576758;
-    --theme-secondary-4: #5e6c5e;
+    --theme-secondary: #404961;        /* Dark neutral with violet undertone */
+    --theme-secondary-2: #495472;
+    --theme-secondary-3: #575f83;
+    --theme-secondary-4: #5e6693;
+    
+    --theme-accent: #a67fec;           /* Light violet accent for light mode */
+    --theme-accent-2: #b390f0;         /* Lighter */
+    --theme-accent-3: #9367e8;         /* Slightly darker */
 
-    --theme-soft: #c3e3cb;
-    --theme-soft-2: #bfdec7;
-    --theme-soft-3: #bad9c2;
+    --theme-soft: #e9e4f9;
+    --theme-soft-2: #e0daf6;
+    --theme-soft-3: #d7d0f3;
 
-    --theme-dark: #daf5e4;
-    --theme-dark-opacity: rgba(218, 245, 228, 0.2);
-    --theme-muted: #7c8d7f;
+    --theme-dark: #2a2a4f;
+    --theme-dark-opacity: rgba(42, 42, 79, 0.2);
+    --theme-muted: #7c7d8d;
     --theme-white: #ffffff;
 
-    --theme-highlight: #269366;
-    --theme-highlight-2: #207956;
-    --theme-highlight-3: #1a6447;
+    --theme-highlight: #406ec9;        /* Using primary color */
+    --theme-highlight-2: #3461b8;      /* Darker shade */
+    --theme-highlight-3: #2a54a7;      /* Even darker */
 
-    --theme-bg: url('/images/css/bg-green.png');
-    --theme-bg-color: #9adbaf;
-    --theme-section-background: #caecd5;
-    --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
-    --theme-tag-color: #b1ccbd;
-    --theme-box-shadow: none;
+    --theme-bg: url('/images/css/bg-violet.png');  /* Changed to violet */
+    --theme-bg-color: #efe9fc;
+    --theme-section-background: #f6f5fd;
+    --theme-section-background-opacity: rgba(246, 245, 253, 0.9);
+    --theme-tag-color: #e1d9f8;
+    --theme-box-shadow: 0 2px 10px rgba(102, 78, 175, 0.1);  /* Subtle violet shadow */
 
-    --theme-nav-background: #caecd5;
-    --theme-nav-background-disabled: #c5e6d0;
-    --theme-nav-secondary: #4f5b50;
-    --theme-nav-light: rgba(217, 243, 222, 0.5);
-    --theme-nav-highlight: #d7f1e3;
-    --theme-nav-selected: #269366;
+    --theme-nav-background: #f6f5fd;
+    --theme-nav-background-disabled: #efe9fc;
+    --theme-nav-secondary: #495672;
+    --theme-nav-light: rgba(229, 224, 248, 0.5);
+    --theme-nav-highlight: #a67fec;     /* Light violet highlight */
+    --theme-nav-selected: #406ec9;      /* Using primary color */
 
-    --theme-scrollbar-track: #c3e4cc;
-    --theme-scrollbar-thumb: #55bd91;
-    --theme-chart-borders: #e7f6e3;
+    --theme-scrollbar-track: #efe9fc;
+    --theme-scrollbar-thumb: #a67fec;   /* Light violet for scrollbar */
+    --theme-chart-borders: #e1d9f8;
 
-    --theme-danger: #fad6d6;
+    --theme-danger: #e74c3c;
+    
+    /* Button colors */
+    --theme-button-primary: #406ec9;
+    --theme-button-primary-hover: #3461b8;
+    --theme-button-accent: #a67fec;       /* Light violet */
+    --theme-button-accent-hover: #9367e8;
 }
 
 .bg-dark {
@@ -137,8 +158,32 @@ $loader-background-color: #111111;
     background-position: center;
 }
 
-.bg-green {
-    background-image: url('/images/css/bg-green.png');
+.bg-violet {  /* Changed to violet */
+    background-image: url('/images/css/bg-violet.png');
     background-size: cover;
     background-position: center;
+}
+
+/* Accent color utility classes */
+.bg-accent {
+    background-color: var(--theme-accent);
+    color: #fff;
+}
+
+.text-accent {
+    color: var(--theme-accent);
+}
+
+.border-accent {
+    border-color: var(--theme-accent);
+}
+
+/* Additional violet gradient classes */
+.bg-violet-gradient {
+    background: linear-gradient(135deg, var(--theme-accent-2), var(--theme-accent-3));
+    color: #fff;
+}
+
+.border-violet {
+    border-color: var(--theme-accent);
 }
