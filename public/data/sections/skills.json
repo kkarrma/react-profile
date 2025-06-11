@@ -159,6 +159,32 @@
                             "text": "  !"
                         }
                     }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-microscope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Testing** using Selenium and Ride",
+                            "text": "I can automate web application tests!"
+                        },
+                        "es": {
+                            "title": "**Testing** usando Selenium y Ride",
+                            "text": "¡Puedo automatizar pruebas de aplicaciones web!"
+                        },
+                        "fr": {
+                            "title": "**Testing** avec Selenium et Ride",
+                            "text": "Je peux automatiser des tests d'applications web !"
+                        },
+                        "ko": {
+                            "title": "**  **",
+                            "text": "  !"
+                        }
+                    }
                 }
             ]
 
@@ -179,7 +205,7 @@
                         "fa": "fa-brands fa-node-js",
                         "faColors": {"bg": "#339933", "fill": "#EEE"}
                     },
-                    "value": 95,
+                    "value": 75,
                     "dates": {
                         "start": "03/24/2025"
                     },
@@ -196,7 +222,7 @@
                         "fa": "fa-brands fa-java",
                         "faColors": {"bg": "#007396", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": 70,
                     "dates": {
                         "start": "03/10/2022"
                     },
@@ -230,7 +256,7 @@
                         "fa": "fa-solid fa-database",
                         "faColors": {"bg": "#4479A1", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": 85,
                     "dates": {
                         "start": "10/10/2023"
                     },
@@ -248,7 +274,7 @@
                         "fa": "fa-brands fa-php",
                         "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
-                    "value": 100,
+                    "value": 90,
                     "dates": {
                         "start": "09/01/2023"
                     },
@@ -329,7 +355,7 @@
                         "fa": "fa-brands fa-css3",
                         "faColors": {"bg": "#1572B6", "fill": "#EEE"}
                     },
-                    "value": 65,
+                    "value": 85,
                     "dates": {
                         "start": "01/15/2022"
                     },
@@ -363,7 +389,7 @@
                         "fa": "fa-brands fa-react",
                         "faColors": {"bg": "#61DAFB", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": 85,
                     "dates": {
                         "start": "06/20/2024"
                     },
@@ -380,7 +406,7 @@
                         "fa": "fa-brands fa-bootstrap",
                         "faColors": {"bg": "#7952B3", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": 80,
                     "dates": {
                         "start": "02/10/2024"
                     },
@@ -397,7 +423,7 @@
                         "fa": "fa-brands fa-tailwind-css",
                         "faColors": {"bg": "#38B2AC", "fill": "#EEE"}
                     },
-                    "value": 95,
+                    "value": 85,
                     "dates": {
                         "start": "02/15/2025"
                     },
@@ -405,52 +431,6 @@
                         "en": {
                             "title": "Tailwind CSS",
                             "info": null
-                        }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "languages",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
-                "ko": { "title": "언어" }
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/flags/en.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "English",
-                            "info": "Native speaker with excellent communication and writing skills.",
-                            "tags": ["Native"]
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
-                        },
-                        "fr": {
-                            "title": "Anglais",
-                            "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-                            "tags": ["Natif"]
-                        },
-                        "ko": {
-                            "title": "영어",
-                            "info": "모국어 수준의 의사소통 및 글쓰기 능력을 보유.",
-                            "tags": ["모국어"]
                         }
                     }
                 }
